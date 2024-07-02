@@ -1,0 +1,13 @@
+body {
+    background-color: #171717;
+    color: #e7e7e7;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+}
